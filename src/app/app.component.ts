@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.audio = new Audio();
-    this.audio.src = '../assets/がんばるびぃ.mp3';
+    this.audio.src = './assets/がんばるびぃ.mp3';
     this.audio.load();
     this.audio.loop = false;
   }
